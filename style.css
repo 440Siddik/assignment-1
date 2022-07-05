@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Nuosu SIL', serif;
+}
+.first-banner{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(images/donation2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.first-desc{
+  text-align: center;
+  padding-top: 15%;
+  color:white;
+  
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.first-btn{
+  background-image: linear-gradient(rgb(53, 231, 9),rgb(60, 5, 212));
+  border-radius: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+
+}
+p{
+  padding-bottom: 40px;
+}
+.donate-container{
+  display: flex;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 30px;
+  
+}
+#bg-clr{
+  background-color:rgb(255, 191, 187);
+  border-radius: 5px;
+  border: 2px solid red;
+  height: 100px;
+  width: 230px;
+  margin-left: 20px;
+}
+.bg-gray{
+  background-color: rgba(211, 209, 209, 0.61);
+  margin-left: 20px;
+  border-radius: 5px;
+    height: 100px;
+  width: 230px;
+}
+.title-size{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#donate-title{
+  text-align: center;
+  margin-top: 40px;
+}
+#donate-par{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.donate-container{
+  margin-left: 20px;
+}
+.input{
+  text-align: center;
+  font-size: large;
+  margin-top: 40px;
+  margin-left: 14px;
+}
+#center{
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 40px;
+}
