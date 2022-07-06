@@ -6,7 +6,7 @@ body{
   font-family: 'Nuosu SIL', serif;
 }
 .first-banner{
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(images/donation2.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.1)), url(images/donation2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -87,4 +87,7 @@ p{
   text-align: center;
   margin-left: 20px;
   margin-top: 40px;
+}
+ html {
+    overflow-x: hidden;
 }
